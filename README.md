@@ -11,14 +11,14 @@ Een Logius-jasje voor B6-slides, het slidescript van W3C.
 
 Deze bestanden komen 1:1 van B6-slides:
 
-- `_shared/b6plus.js`: JavaScript voor de slidesoftware
+- `shared/b6plus.js`: JavaScript voor de slidesoftware
 
 Deze bestanden hebben we voor onze use case aangepast:
 
-- `_shared/slides.css`: grotendeels overgenomen; aangepast voor kleuren, borders + fonts voor Logius-stijl
+- `shared/slides.css`: grotendeels overgenomen; aangepast voor kleuren, borders + fonts voor Logius-stijl
 - `_example/index.html`: op eerste slide de `<div class="cover__box">` toegevoegd zodat we een achtergrondkleur kunnen toevoegen
 
 Deze bestanden zijn Logius-specifiek: 
 
-- `_shared/fonts`: Rijkshuisstijl fonts (let op: kunnen niet extern worden gedeeld)
-- `_shared/svg`: BZK logo's met zwarte en witte tekst
+- `shared/fonts`: Rijkshuisstijl fonts (let op: kunnen niet extern worden gedeeld)
+- `shared/svg`: BZK logo's met zwarte en witte tekst
