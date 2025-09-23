@@ -490,13 +490,13 @@ body.b6plus .if-not-b6plus {display: none}
   /* Experimental media query, see
      https://www.w3.org/TR/2020/WD-mediaqueries-5-20200731/ */
   .full .incremental > .active, .full .overlay > .active,
-  .full .next.active {animation: unfold 1s}
+  .full .next.active {animation: none}
   .full .incremental > .active.emerge, .full .overlay > .active.emerge,
   .full .incremental.emerge > .active, .full .overlay.emerge > .active,
   .full .emerge .incremental > .active, .full .emerge .overlay > .active,
   .full.emerge .incremental > .active, .full.emerge .overlay > .active,
   .full .emerge .next.active, .full .next.active.emerge,
-  .full.emerge .next.active {animation: fade-in 0.5s}
+  .full.emerge .next.active {animation: none}
   .full .incremental .active.quick, .full .overlay .active.quick,
   .full .incremental.quick .active, .full .overlay.quick .active,
   .full.quick .incremental .active, .full.quick .overlay .active,
@@ -686,10 +686,10 @@ body.b6plus .if-not-b6plus {display: none}
   .full .slide.cut-in + .active,
   .full .slide.cut-in + .comment + .active,
   .cut-in .slide.active {animation: cut-in 1s 1}
-  @keyframes cut-in {
+  /* @keyframes cut-in {
     from {transform: translate(-100%, -100%)}
     to {transform: translate(0%, 0%)}
-  }
+  } */
 
 } /* End of @media not screen and (prefers-reduced-motion: reduce) */
 
